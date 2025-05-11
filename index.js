@@ -6,6 +6,7 @@ const port = 3000;
 const userRouter = require('./routes/user');
 const sessionRouter = require('./routes/session');
 const messageRouter = require('./routes/message.js'); // Import message router
+const mentorRouter = require('./routes/mentor');
 // Middleware to parse JSON
 app.use(express.json());
 
@@ -13,6 +14,7 @@ app.use(express.json());
 app.use('/user', userRouter);
 app.use('/session', sessionRouter);
 app.use('/message', messageRouter);
+app.use('/mentor', mentorRouter);
 
 // Start the server
 app.listen(port, () => {
