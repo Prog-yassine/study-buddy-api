@@ -19,5 +19,5 @@ Bienvenue dans le backend de **StudyBuddy**, l’API REST qui alimente la platef
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/Prog-yassine/studybuddy-api.git
+git clone https://github.com/Prog-yassine/study-buddy-api.git
 cd studybuddy-api
